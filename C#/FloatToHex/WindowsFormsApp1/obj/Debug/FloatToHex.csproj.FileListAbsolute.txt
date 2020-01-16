@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FloatToHex.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FloatToHex.exe.config
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FloatToHex.exe
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FloatToHex.pdb
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FloatToHex.exe
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FloatToHex.pdb
+C:\Users\Administrator\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\FloatToHex.Properties.Resources.resources
