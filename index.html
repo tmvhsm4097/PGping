@@ -1,0 +1,2598 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>PG-EFTK Info</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PG - Escape from Tarkov Info Page">
+    <meta name="keywords" content="PGping, PG, EFT, EFTK, Escape from Tarkov">
+    <meta name="author" content="PGping">
+    <meta name=”copyright” content=”©2020 PGping”>
+    <meta name=”date” content=”2020-04-26 T12:00:00+09:00”>
+</head>
+
+<body>
+    <a style="display:scroll; position:fixed; bottom:10px; right:20px;" href="#" title=Top>
+        <p style="padding:10px; background:#F66; color:#fff;">Top</p></a>
+    <!-- <details>
+        <summary>1</summary>
+        <p>
+            
+        </p>
+        </details> -->
+    <details>
+        <summary>탄약 정보</summary>
+        <p>
+            <!-- 방어구 관통 정보 -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <p>
+                            <td class="black" colspan="2">관통 레벨</td>
+                        </p>
+                    </tr>
+                    <tr class="black">
+                        <th>레벨</th>
+                        <th>상세 설명</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 관통 레벨 정보 -->
+                    <tr class="infotable">
+                        <td class="c0">0</td>
+                        <td>방어구 내구도를 0으로 만들어야 직접적인 데미지를 줄 수 있다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c1">1</td>
+                        <td>아주 희박한 확률로 내구도가 0 이상인 방어구를 관통할 수 있다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c2">2</td>
+                        <td>희박한 확률로 내구도가 0 이상인 방어구를 관통할 수 있다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c3">3</td>
+                        <td>낮은 확률로 내구도가 0 이상인 방어구를 관통할 수 있다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c4">4</td>
+                        <td>관통 확률은 낮으나 방어구 내구도 저하률이 높다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c5">5</td>
+                        <td>80% 이상의 확률로 관통이 가능하다.</td>
+                    </tr>
+                    <tr class="infotable">
+                        <td class="c6">6</td>
+                        <td>90% 이상의 확률로 방어구 관통이 가능하다.</td>
+                    </tr>
+                </tbody>
+                이름이 빨간색인 경우 예광탄입니다.
+            </table>
+            <!-- 권총 탄 -->
+            <details>
+                <summary>권총 탄</summary>
+                <p>
+                    <!--  9x18 -->
+                    <details>
+                        <summary>9x18mm Makarov</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- SP8 gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/SP8_gzh.png" width="50" height="50"></td>
+                                        <td>SP8 gzh</td>
+                                        <td>67</td>
+                                        <td>1%</td>
+                                        <td>2%</td>
+                                        <td>60%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SP7 gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/SP7_gzh.png" width="50" height="50"></td>
+                                        <td>SP7 gzh</td>
+                                        <td>77</td>
+                                        <td>2%</td>
+                                        <td>5%</td>
+                                        <td>2%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PSV -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PSV.png" width="50" height="50"></td>
+                                        <td>PSV</td>
+                                        <td>69</td>
+                                        <td>3%</td>
+                                        <td>5%</td>
+                                        <td>40%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- 9 P gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/9_P_gzh.png" width="50" height="50"></td>
+                                        <td>9 P gzh</td>
+                                        <td>50</td>
+                                        <td>5%</td>
+                                        <td>16%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PSO gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PSO_gzh.png" width="50" height="50"></td>
+                                        <td>PSO gzh</td>
+                                        <td>54</td>
+                                        <td>5%</td>
+                                        <td>13%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PS gs PPO -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PS_gs_PPO.png" width="50" height="50"></td>
+                                        <td>PS gs PPO</td>
+                                        <td>55</td>
+                                        <td>6%</td>
+                                        <td>16%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PRS gs -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PRS_gs.png" width="50" height="50"></td>
+                                        <td>PRS gs</td>
+                                        <td>58</td>
+                                        <td>6%</td>
+                                        <td>16%</td>
+                                        <td>30%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PPe gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PPe_gzh.png" width="50" height="50"></td>
+                                        <td>PPe gzh</td>
+                                        <td>61</td>
+                                        <td>7%</td>
+                                        <td>15%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c4">4</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PPT gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PPT_gzh.png" width="50" height="50"></td>
+                                        <td class="t_red">PPT gzh</td>
+                                        <td>59</td>
+                                        <td>8%</td>
+                                        <td>22%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Pst gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/Pst_gzh.png" width="50" height="50"></td>
+                                        <td>Pst gzh</td>
+                                        <td>50</td>
+                                        <td>12%</td>
+                                        <td>26%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- RG028 gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/RG028_gzh.png" width="50" height="50"></td>
+                                        <td>RG028 gzh</td>
+                                        <td>65</td>
+                                        <td>13%</td>
+                                        <td>26%</td>
+                                        <td>2%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- 9 BZT gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/9_BZT_gzh.png" width="50" height="50"></td>
+                                        <td>9 BZT gzh</td>
+                                        <td>55</td>
+                                        <td>16%</td>
+                                        <td>28%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PBM -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PBM.png" width="50" height="50"></td>
+                                        <td>PBM</td>
+                                        <td>44</td>
+                                        <td>22%</td>
+                                        <td>30%</td>
+                                        <td>16%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+4</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PMM -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x18/PMM.png" width="50" height="50"></td>
+                                        <td>PMM</td>
+                                        <td>56</td>
+                                        <td>25%</td>
+                                        <td>33%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 9x19  -->
+                    <details>
+                        <summary>9x19mm Parabellum</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- RIP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/9x19mm_RIP.png" width="50" height="50"></td>
+                                        <td>RIP</td>
+                                        <td>102</td>
+                                        <td>2%</td>
+                                        <td>11%</td>
+                                        <td>100%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+20%</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PSO gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/PSO_gzh.png" width="50" height="50"></td>
+                                        <td>PSO gzh</td>
+                                        <td>56</td>
+                                        <td>10%</td>
+                                        <td>32%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Luger CCI -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/Lugger_CCI.png" width="50" height="50"></td>
+                                        <td>Lugger CCI</td>
+                                        <td>70</td>
+                                        <td>10%</td>
+                                        <td>38%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Green Tracer -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/GT.png" width="50" height="50"></td>
+                                        <td class="t_red">Green Tracer</td>
+                                        <td>58</td>
+                                        <td>14%</td>
+                                        <td>33%</td>
+                                        <td>15%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Pst gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/Pst_gzh.png" width="50" height="50"></td>
+                                        <td>Pst gzh</td>
+                                        <td>54</td>
+                                        <td>18%</td>
+                                        <td>33%</td>
+                                        <td>15%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- AP 6.3 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x19/AP_6.3.png" width="50" height="50"></td>
+                                        <td>AP 6.3</td>
+                                        <td>52</td>
+                                        <td>25%</td>
+                                        <td>48%</td>
+                                        <td>5%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 7.62x25 -->
+                    <details>
+                        <summary>7.62x25mm Tokarev</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- LRNPC -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/LRNPC.png" width="50" height="50"></td>
+                                        <td>LRNPC</td>
+                                        <td>66</td>
+                                        <td>5%</td>
+                                        <td>27%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- LRN -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/LRN.png" width="50" height="50"></td>
+                                        <td>LRN</td>
+                                        <td>64</td>
+                                        <td>6%</td>
+                                        <td>28%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- FMJ43 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/FMJ43.png" width="50" height="50"></td>
+                                        <td>FMJ43</td>
+                                        <td>60</td>
+                                        <td>8%</td>
+                                        <td>29%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c5">5</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- AKBS -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/AKBS.png" width="50" height="50"></td>
+                                        <td>AKBS</td>
+                                        <td>58</td>
+                                        <td>9%</td>
+                                        <td>32%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- P gl -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/P_gl.png" width="50" height="50"></td>
+                                        <td>P gl</td>
+                                        <td>58</td>
+                                        <td>10%</td>
+                                        <td>32%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PT gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/PT_gzh.png" width="50" height="50"></td>
+                                        <td class="t_red">PT gzh</td>
+                                        <td>60</td>
+                                        <td>12%</td>
+                                        <td>34%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Pst gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x25/Pst_gzh.png" width="50" height="50"></td>
+                                        <td>Pst gzh</td>
+                                        <td>50</td>
+                                        <td>24%</td>
+                                        <td>36%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 9x21mm Gyurza -->
+                    <details>
+                        <summary>9x21mm Gyurza</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- SP12 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x21/SP12.png" width="50" height="50"></td>
+                                        <td>SP12</td>
+                                        <td>75</td>
+                                        <td>14%</td>
+                                        <td>63%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SP11 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x21/SP11.png" width="50" height="50"></td>
+                                        <td>SP11</td>
+                                        <td>70</td>
+                                        <td>16%</td>
+                                        <td>44%</td>
+                                        <td>30%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SP10 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x21/SP10.png" width="50" height="50"></td>
+                                        <td>SP10</td>
+                                        <td>49</td>
+                                        <td>32%</td>
+                                        <td>46%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- SP13 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x21/SP13.png" width="50" height="50"></td>
+                                        <td class="t_red">SP13</td>
+                                        <td>62</td>
+                                        <td>36%</td>
+                                        <td>47%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                </p>
+            </details>
+            <!-- PDW -->
+            <details>
+                <summary>PDW</summary>
+                <p>
+                    <!-- 4.6x30mm HK -->
+                    <details>
+                        <summary>4.6x30mm HK</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Action SX -->
+                                    <tr class="infotable">
+                                        <td><img src="img/4.6x30/Action_SX.png" width="50" height="50"></td>
+                                        <td>Action SX</td>
+                                        <td>65</td>
+                                        <td>13%</td>
+                                        <td>39%</td>
+                                        <td>50%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- FMJ SX -->
+                                    <tr class="infotable">
+                                        <td><img src="img/4.6x30/FMJ_SX.png" width="50" height="50"></td>
+                                        <td>FMJ SX</td>
+                                        <td>43</td>
+                                        <td>30%</td>
+                                        <td>41%</td>
+                                        <td>50%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- Subsonic SX -->
+                                    <tr class="infotable">
+                                        <td><img src="img/4.6x30/Subsonic_S.png" width="50" height="50"></td>
+                                        <td>Subsonic SX</td>
+                                        <td>41</td>
+                                        <td>34%</td>
+                                        <td>46%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td class="t_green">-20</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- AP SX -->
+                                    <tr class="infotable">
+                                        <td><img src="img/4.6x30/AP_SX.png" width="50" height="50"></td>
+                                        <td>AP SX</td>
+                                        <td>35</td>
+                                        <td>47%</td>
+                                        <td>46%</td>
+                                        <td>10%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c4">4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 5.7x28mm FN -->
+                    <details>
+                        <summary>5.7x28mm FN</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- R37.F -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/R37.F.png" width="50" height="50"></td>
+                                        <td>R37.F</td>
+                                        <td>98</td>
+                                        <td>8%</td>
+                                        <td>7%</td>
+                                        <td>100%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SS198LF -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/SS198LF.png" width="50" height="50"></td>
+                                        <td>SS198LF</td>
+                                        <td>74</td>
+                                        <td>10%</td>
+                                        <td>15%</td>
+                                        <td>80%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- R37.X -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/R37.X.png" width="50" height="50"></td>
+                                        <td>R37.X</td>
+                                        <td>81</td>
+                                        <td>11%</td>
+                                        <td>14%</td>
+                                        <td>70%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SS197SR -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/SS197SR.png" width="50" height="50"></td>
+                                        <td>SS197SR</td>
+                                        <td>62</td>
+                                        <td>20%</td>
+                                        <td>22%</td>
+                                        <td>50%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- SS190 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/SS190.png" width="50" height="50"></td>
+                                        <td>SS190</td>
+                                        <td>57</td>
+                                        <td>32%</td>
+                                        <td>43%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- L191 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/L191.png" width="50" height="50"></td>
+                                        <td class="t_red">L191</td>
+                                        <td>58</td>
+                                        <td>33%</td>
+                                        <td>41%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- SB193 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.7x28/SB193.png" width="50" height="50"></td>
+                                        <td>SB193</td>
+                                        <td>54</td>
+                                        <td>35%</td>
+                                        <td>37%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td class="t_green">-20</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                </p>
+            </details>
+            <!-- 소총 탄 -->
+            <details>
+                <summary>소총 탄</summary>
+                <p>
+                    <!-- 12.7x55mm STs-130 -->
+                    <details>
+                        <summary>12.7x55mm STs-130</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도(%)</th>
+                                        <th rowspan="2">반동(%)</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- PS12A -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12.7x55/PS12A.png" width="50" height="50"></td>
+                                        <td>PS12A</td>
+                                        <td>165</td>
+                                        <td>10%</td>
+                                        <td>22%</td>
+                                        <td>70%</td>
+                                        <td class="t_red">-15</td>
+                                        <td class="t_red">+7</td>
+                                        <td class="c6">6</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PS12 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12.7x55/PS12.png" width="50" height="50"></td>
+                                        <td>PS12</td>
+                                        <td>115</td>
+                                        <td>28%</td>
+                                        <td>60%</td>
+                                        <td>30%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PS12B -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12.7x55/PS12B.png" width="50" height="50"></td>
+                                        <td>PS12B</td>
+                                        <td>102</td>
+                                        <td>46%</td>
+                                        <td>57%</td>
+                                        <td>30%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 9x39mm -->
+                    <details>
+                        <summary>9x39mm</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- SP-5 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x39/SP-5.png" width="50" height="50"></td>
+                                        <td>SP-5</td>
+                                        <td>68</td>
+                                        <td>35%</td>
+                                        <td>52%</td>
+                                        <td>20%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                        <td class="c2">2</td>
+                                    </tr>
+                                    <!-- SP-6 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x39/SP-6.png" width="50" height="50"></td>
+                                        <td>SP-6</td>
+                                        <td>58</td>
+                                        <td>43%</td>
+                                        <td>60%</td>
+                                        <td>10%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+7</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7N9 SPP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x39/7N9_SPP.png" width="50" height="50"></td>
+                                        <td>7N9 SPP</td>
+                                        <td>67</td>
+                                        <td>45%</td>
+                                        <td>56%</td>
+                                        <td>20%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7N12 BP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/9x39/7N12_BP.png" width="50" height="50"></td>
+                                        <td>7N12 BP</td>
+                                        <td>60</td>
+                                        <td>50%</td>
+                                        <td>68%</td>
+                                        <td>10%</td>
+                                        <td class="t_green">+15</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 7.62×54mmR -->
+                    <details>
+                        <summary>7.62×54mmR</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- T-46M -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54/T-46M.png" width="50" height="50"></td>
+                                        <td class="t_red">T-46M</td>
+                                        <td>82</td>
+                                        <td>41%</td>
+                                        <td>83%</td>
+                                        <td>18%</td>
+                                        <td class="t_green">+5</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- LPS Gzh -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54//LPS_Gzh.png" width="50" height="50"></td>
+                                        <td>LPS Gzh</td>
+                                        <td>81</td>
+                                        <td>42%</td>
+                                        <td>78%</td>
+                                        <td>18%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7N1 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54/7N1.png" width="50" height="50"></td>
+                                        <td>7N1</td>
+                                        <td>86</td>
+                                        <td>45%</td>
+                                        <td>84%</td>
+                                        <td>8%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="t_red">+8</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c4">4</td>
+                                    </tr>
+                                    <!-- 7BT1 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54/7BT1.png" width="50" height="50"></td>
+                                        <td class="t_red">7BT1</td>
+                                        <td>78</td>
+                                        <td>59%</td>
+                                        <td>87%</td>
+                                        <td>8%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                    </tr>
+                                    <!-- SNB -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54/SNB.png" width="50" height="50"></td>
+                                        <td>SNB</td>
+                                        <td>75</td>
+                                        <td>62%</td>
+                                        <td>87%</td>
+                                        <td>8%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                    </tr>
+                                    <!-- 7N37 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x54/7N37.png" width="50" height="50"></td>
+                                        <td>7N37</td>
+                                        <td>72</td>
+                                        <td>70%</td>
+                                        <td>88%</td>
+                                        <td>8%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 7.62×51mm NATO -->
+                    <details>
+                        <summary>7.62×51mm NATO</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Ultra Nosler -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/Ultra Nosler.png" width="50" height="50"></td>
+                                        <td>Ultra Nosler</td>
+                                        <td>102</td>
+                                        <td>15%</td>
+                                        <td>20%</td>
+                                        <td>70%</td>
+                                        <td class="t_green">+5</td>
+                                        <td class="t_green">-5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- BPZ FMJ -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/BPZ FMJ.png" width="50" height="50"></td>
+                                        <td>BPZ FMJ</td>
+                                        <td>88</td>
+                                        <td>31%</td>
+                                        <td>33%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td class="t_green">-3</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- TPZ SP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/TPZ SP.png" width="50" height="50"></td>
+                                        <td>TPZ SP</td>
+                                        <td>60</td>
+                                        <td>36%</td>
+                                        <td>40%</td>
+                                        <td>20%</td>
+                                        <td class="t_red">-5</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- M80 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/M80.png" width="50" height="50"></td>
+                                        <td>M80</td>
+                                        <td>80</td>
+                                        <td>41%</td>
+                                        <td>66%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- M62 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/M62.png" width="50" height="50"></td>
+                                        <td class="t_red">M62</td>
+                                        <td>79</td>
+                                        <td>54%</td>
+                                        <td>75%</td>
+                                        <td>14%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                    </tr>
+                                    <!-- M61 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x51/M61.png" width="50" height="50"></td>
+                                        <td>M61</td>
+                                        <td>70</td>
+                                        <td>68%</td>
+                                        <td>83%</td>
+                                        <td>13%</td>
+                                        <td class="t_green">+3</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 7.62×39mm -->
+                    <details>
+                        <summary>7.62×39mm</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- HP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x39/HP.png" width="50" height="50"></td>
+                                        <td>HP</td>
+                                        <td>83</td>
+                                        <td>15%</td>
+                                        <td>35%</td>
+                                        <td>26%</td>
+                                        <td class="t_red">-5</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- US -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x39/US.png" width="50" height="50"></td>
+                                        <td>US</td>
+                                        <td>56</td>
+                                        <td>29%</td>
+                                        <td>42%</td>
+                                        <td>8%</td>
+                                        <td class="t_green">+5</td>
+                                        <td class="t_green">-30</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- T45M -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x39/T45M.png" width="50" height="50"></td>
+                                        <td class="t_red">T45M</td>
+                                        <td>62</td>
+                                        <td>31%</td>
+                                        <td>46%</td>
+                                        <td>12%</td>
+                                        <td class="t_red">-2</td>
+                                        <td class="t_green">-5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- PS -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x39/PS.png" width="50" height="50"></td>
+                                        <td>PS</td>
+                                        <td>54</td>
+                                        <td>34%</td>
+                                        <td>52%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- BP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/7.62x39/BP.png" width="50" height="50"></td>
+                                        <td>BP</td>
+                                        <td>58</td>
+                                        <td>47%</td>
+                                        <td>63%</td>
+                                        <td>12%</td>
+                                        <td class="t_red">-3</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c4">4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 5.56×45mm NATO -->
+                    <details>
+                        <summary>5.56×45mm NATO</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Warmage -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/Warmage.png" width="50" height="50"></td>
+                                        <td>Warmage</td>
+                                        <td>85</td>
+                                        <td>3%</td>
+                                        <td>14%</td>
+                                        <td>90%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- 55 HP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/55 HP.png" width="50" height="50"></td>
+                                        <td>55 HP</td>
+                                        <td>75</td>
+                                        <td>9%</td>
+                                        <td>22%</td>
+                                        <td>77%</td>
+                                        <td class="">-</td>
+                                        <td class="">-</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Mk 255 Mod 0 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/Mk 255 Mod 0.png" width="50" height="50"></td>
+                                        <td>Mk 255 Mod 0</td>
+                                        <td>60</td>
+                                        <td>17%</td>
+                                        <td>32%</td>
+                                        <td>3%</td>
+                                        <td class="">-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- M856 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/M856.png" width="50" height="50"></td>
+                                        <td class="t_red">M856</td>
+                                        <td>55</td>
+                                        <td>23%</td>
+                                        <td>34%</td>
+                                        <td>33%</td>
+                                        <td class="">-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- 55 FMJ -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/55 FMJ.png" width="50" height="50"></td>
+                                        <td>55 FMJ</td>
+                                        <td>52</td>
+                                        <td>24%</td>
+                                        <td>33%</td>
+                                        <td>50%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="t_green">-5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- M855 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/M855.png" width="50" height="50"></td>
+                                        <td>M855</td>
+                                        <td>49</td>
+                                        <td>26%</td>
+                                        <td>37%</td>
+                                        <td>40%</td>
+                                        <td class="t_green">+5</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- M856A1 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/M856A1.png" width="50" height="50"></td>
+                                        <td class="t_red">M856A1</td>
+                                        <td>51</td>
+                                        <td>37%</td>
+                                        <td>52%</td>
+                                        <td>33%</td>
+                                        <td class="">-</td>
+                                        <td class="t_red">+4</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- M855A1 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/M855A1.png" width="50" height="50"></td>
+                                        <td>M855A1</td>
+                                        <td>44</td>
+                                        <td>40%</td>
+                                        <td>52%</td>
+                                        <td>34%</td>
+                                        <td class="t_red">-7</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                    </tr>
+                                    <!-- M995 -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.56x45/M995.png" width="50" height="50"></td>
+                                        <td>M995</td>
+                                        <td>41</td>
+                                        <td>53%</td>
+                                        <td>58%</td>
+                                        <td>32%</td>
+                                        <td class="">-</td>
+                                        <td class="t_red">+8</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 5.45×39mm -->
+                    <details>
+                        <summary>5.45×39mm</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- SP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/SP.png" width="50" height="50"></td>
+                                        <td>SP</td>
+                                        <td>68</td>
+                                        <td>11%</td>
+                                        <td>34%</td>
+                                        <td>45%</td>
+                                        <td class="t_green">+10</td>
+                                        <td class="t_green">-15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- HP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/HP.png" width="50" height="50"></td>
+                                        <td>HP</td>
+                                        <td>74</td>
+                                        <td>11%</td>
+                                        <td>20%</td>
+                                        <td>35%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- US -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/US.png" width="50" height="50"></td>
+                                        <td>US</td>
+                                        <td>65</td>
+                                        <td>15%</td>
+                                        <td>34%</td>
+                                        <td>10%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PRS -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/PRS.png" width="50" height="50"></td>
+                                        <td>PRS</td>
+                                        <td>60</td>
+                                        <td>14%</td>
+                                        <td>28%</td>
+                                        <td>30%</td>
+                                        <td>-</td>
+                                        <td class="t_green">-5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- FMJ -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/FMJ.png" width="50" height="50"></td>
+                                        <td>FMJ</td>
+                                        <td>54</td>
+                                        <td>20%</td>
+                                        <td>30%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- T -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/T.png" width="50" height="50"></td>
+                                        <td class="t_red">T</td>
+                                        <td>57</td>
+                                        <td>20%</td>
+                                        <td>38%</td>
+                                        <td>16%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PS -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/PS.png" width="50" height="50"></td>
+                                        <td>PS</td>
+                                        <td>50</td>
+                                        <td>25%</td>
+                                        <td>35%</td>
+                                        <td>40%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- PP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/PP.png" width="50" height="50"></td>
+                                        <td>PP</td>
+                                        <td>46</td>
+                                        <td>30%</td>
+                                        <td>32%</td>
+                                        <td>17%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- BP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/BP.png" width="50" height="50"></td>
+                                        <td>BP</td>
+                                        <td>48</td>
+                                        <td>32%</td>
+                                        <td>41%</td>
+                                        <td>16%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- BT -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/BP.png" width="50" height="50"></td>
+                                        <td class="t_red">BT</td>
+                                        <td>44</td>
+                                        <td>37%</td>
+                                        <td>49%</td>
+                                        <td>16%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+5</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                    </tr>
+                                    <!-- BS -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/BS.png" width="50" height="50"></td>
+                                        <td>BS</td>
+                                        <td>40</td>
+                                        <td>51%</td>
+                                        <td>57%</td>
+                                        <td>17%</td>
+                                        <td class="t_red">-3</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                    </tr>
+                                    <!-- 7N39 "Igolnik" -->
+                                    <tr class="infotable">
+                                        <td><img src="img/5.45x39/7N39 Igolnik.png" width="50" height="50"></td>
+                                        <td>7N39 "Igolnik"</td>
+                                        <td>37</td>
+                                        <td>62%</td>
+                                        <td>60%</td>
+                                        <td>2%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                </p>
+            </details>
+            <!-- 산탄 -->
+            <details>
+                <summary>산탄</summary>
+                 <p>
+                     <!-- 12 Gauge Buckshot -->
+                    <details>
+                        <summary>12 Gauge Buckshot</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- 5.25mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-buckshot/5.25mm Buckshot.png" width="50" height="50"></td>
+                                        <td>5.25mm Buckshot</td>
+                                        <td>8x34</td>
+                                        <td>1%</td>
+                                        <td>15%</td>
+                                        <td>0%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 8.5mm "Magnum" Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-buckshot/8.5mm Magnum Buckshot.png" width="50" height="50"></td>
+                                        <td>8.5mm "Magnum" Buckshot</td>
+                                        <td>8x44</td>
+                                        <td>2%</td>
+                                        <td>26%</td>
+                                        <td>0%</td>
+                                        <td class="t_red">-15</td>
+                                        <td class="t_red">+115</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 6.5mm "Express" Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-buckshot/6.5mm Express Buckshot.png" width="50" height="50"></td>
+                                        <td>6.5mm "Express" Buckshot</td>
+                                        <td>9x29</td>
+                                        <td>3%</td>
+                                        <td>26%</td>
+                                        <td>0%</td>
+                                        <td class="t_green">+15</td>
+                                        <td class="">-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-buckshot/7mm Buckshot.png" width="50" height="50"></td>
+                                        <td>7mm Buckshot Buckshot</td>
+                                        <td>8x32</td>
+                                        <td>3%</td>
+                                        <td>26%</td>
+                                        <td>0%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- Flechette -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-buckshot/Flechette.png" width="50" height="50"></td>
+                                        <td>Flechette</td>
+                                        <td>8x19</td>
+                                        <td>28%</td>
+                                        <td>26%</td>
+                                        <td>0%</td>
+                                        <td class="t_red">-25</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c5">5</td>
+                                        <td class="c4">4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 12 Gauge Slug -->
+                    <details>
+                        <summary>12 Gauge Slug</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- RIP -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/RIP.png" width="50" height="50"></td>
+                                        <td>RIP</td>
+                                        <td>235</td>
+                                        <td>0%</td>
+                                        <td>11%</td>
+                                        <td>100%</td>
+                                        <td class="t_green">+80</td>
+                                        <td class="t_red">+35</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- HP Slug "SuperFormance" -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/HP Slug SuperFormance.png" width="50" height="50"></td>
+                                        <td>HP Slug "SuperFormance"</td>
+                                        <td>190</td>
+                                        <td>2%</td>
+                                        <td>12%</td>
+                                        <td>39%</td>
+                                        <td class="t_green">+140</td>
+                                        <td class="t_green">-15</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Grizzly 40 Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/Grizzly 40 Slug.png" width="50" height="50"></td>
+                                        <td>Grizzly 40 Slug</td>
+                                        <td>170</td>
+                                        <td>12%</td>
+                                        <td>48%</td>
+                                        <td>12%</td>
+                                        <td class="t_green">+80</td>
+                                        <td class="t_red">+20</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- HP Slug Copper Sabot Premier -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/HP Slug Copper Sabot Premier.png" width="50" height="50"></td>
+                                        <td>HP Slug Copper Sabot Premier</td>
+                                        <td>160</td>
+                                        <td>13%</td>
+                                        <td>46%</td>
+                                        <td>38%</td>
+                                        <td class="t_green">+150</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Led slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/Led slug.png" width="50" height="50"></td>
+                                        <td>Led slug</td>
+                                        <td>147</td>
+                                        <td>15%</td>
+                                        <td>45%</td>
+                                        <td>20%</td>
+                                        <td class="t_green">+100</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c4">4</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Dual Sabot Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/Dual Sabot Slug.png" width="50" height="50"></td>
+                                        <td>Dual Sabot Slug</td>
+                                        <td>2x75</td>
+                                        <td>17%</td>
+                                        <td>65%</td>
+                                        <td>10%</td>
+                                        <td class="t_green">+100</td>
+                                        <td class="t_red">+15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- "Poleva-3" Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/Poleva-3 Slug.png" width="50" height="50"></td>
+                                        <td>"Poleva-3" Slug</td>
+                                        <td>130</td>
+                                        <td>17%</td>
+                                        <td>40%</td>
+                                        <td>20%</td>
+                                        <td class="t_green">+90</td>
+                                        <td class="t_green">-15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- FTX Custom LIte Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/FTX Custom LIte Slug.png" width="50" height="50"></td>
+                                        <td>FTX Custom LIte Slug</td>
+                                        <td>153</td>
+                                        <td>18%</td>
+                                        <td>50%</td>
+                                        <td>10%</td>
+                                        <td class="t_green">+115</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- "Poleva-6u" Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/Poleva-6u Slug.png" width="50" height="50"></td>
+                                        <td>"Poleva-6u" Slug</td>
+                                        <td>140</td>
+                                        <td>20%</td>
+                                        <td>50%</td>
+                                        <td>15%</td>
+                                        <td class="t_green">+95</td>
+                                        <td class="t_green">-10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- shell with 50 BMG bulle -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/shell with 50 BMG bullet.png" width="50" height="50"></td>
+                                        <td>shell with 50 BMG bulle</td>
+                                        <td>177</td>
+                                        <td>23%</td>
+                                        <td>57%</td>
+                                        <td>5%</td>
+                                        <td class="t_green">+90</td>
+                                        <td class="t_red">+25</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- AP-20 Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/12-Slug/AP-20 Slug.png" width="50" height="50"></td>
+                                        <td>AP-20 Slug</td>
+                                        <td>164</td>
+                                        <td>32%</td>
+                                        <td>65%</td>
+                                        <td>3%</td>
+                                        <td class="t_green">+125</td>
+                                        <td class="tred_">+50</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 20 Gauge Buckshot -->
+                    <details>
+                        <summary>20 Gauge Buckshot</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- 5.6mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-buckshot/5.6mm Buckshot.png" width="50" height="50"></td>
+                                        <td>5.6mm Buckshot</td>
+                                        <td>8x25</td>
+                                        <td>1%</td>
+                                        <td>12%</td>
+                                        <td>0%</td>
+                                        <td class="t_red">-10</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 6.2mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-buckshot/6.2mm Buckshot.png" width="50" height="50"></td>
+                                        <td>6.2mm Buckshot</td>
+                                        <td>8x21</td>
+                                        <td>2%</td>
+                                        <td>13%</td>
+                                        <td>0%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7.5mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-buckshot/7.5mm Buckshot.png" width="50" height="50"></td>
+                                        <td>7.5mm Buckshot</td>
+                                        <td>8x24</td>
+                                        <td>3%</td>
+                                        <td>14%</td>
+                                        <td>0%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                    <!-- 7.3mm Buckshot -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-buckshot/7.3mm Buckshot.png" width="50" height="50"></td>
+                                        <td>7.3mm Buckshot</td>
+                                        <td>9x22</td>
+                                        <td>3%</td>
+                                        <td>13%</td>
+                                        <td>0%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+15</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                        <td class="c3">3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- 20 Gauge Slug -->
+                    <details>
+                        <summary>20 Gauge Slug</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Devastator Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-Slug/Devastator Slug.png" width="50" height="50"></td>
+                                        <td>Devastator Slug</td>
+                                        <td>188</td>
+                                        <td>4%</td>
+                                        <td>13%</td>
+                                        <td>100%</td>
+                                        <td class="t_green">+115</td>
+                                        <td class="t_Red">+30</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Slug "Poleva-3" -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-Slug/Slug Poleva-3.png" width="50" height="50"></td>
+                                        <td>Slug "Poleva-3"</td>
+                                        <td>110</td>
+                                        <td>14%</td>
+                                        <td>35%</td>
+                                        <td>20%</td>
+                                        <td class="t_green">+90</td>
+                                        <td class="t_green">-15</td>
+                                        <td class="c6">6</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Star Slug -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-Slug/Star Slug.png" width="50" height="50"></td>
+                                        <td>Star Slug</td>
+                                        <td>134</td>
+                                        <td>16%</td>
+                                        <td>42%</td>
+                                        <td>10%</td>
+                                        <td class="t_green">+100</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- Slug Poleva-6u -->
+                                    <tr class="infotable">
+                                        <td><img src="img/20-Slug/Slug Poleva-6u.png" width="50" height="50"></td>
+                                        <td>Slug Poleva-6u</td>
+                                        <td>12</td>
+                                        <td>17%</td>
+                                        <td>40%</td>
+                                        <td>15%</td>
+                                        <td class="t_green">+95</td>
+                                        <td class="t_green">-10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                    <!-- .366 TKM -->
+                    <details>
+                        <summary>.366 TKM</summary>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr class="black">
+                                        <th rowspan="2">아이콘</th>
+                                        <th rowspan="2">이름</th>
+                                        <th rowspan="2">데미지</th>
+                                        <th rowspan="2">관통력</th>
+                                        <th rowspan="2">방어구 피해</th>
+                                        <th rowspan="2">파편화 확률</th>
+                                        <th rowspan="2">정확도</th>
+                                        <th rowspan="2">반동</th>
+                                        <th colspan="6">방어구 레벨<br>관통 레벨</th>
+                                    </tr>
+                                    <tr class="black">
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Geksa -->
+                                    <tr class="infotable">
+                                        <td><img src="img/366 TKM/Geksa.png" width="50" height="50"></td>
+                                        <td>Geksa</td>
+                                        <td>80</td>
+                                        <td>14%</td>
+                                        <td>38%</td>
+                                        <td>45%</td>
+                                        <td>-</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c3">3</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- FMJ -->
+                                    <tr class="infotable">
+                                        <td><img src="img/366 TKM/FMJ.png" width="50" height="50"></td>
+                                        <td>FMJ</td>
+                                        <td>73</td>
+                                        <td>20%</td>
+                                        <td>36%</td>
+                                        <td>25%</td>
+                                        <td>-</td>
+                                        <td class="t_red">+10</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c1">1</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                    <!-- EKO -->
+                                    <tr class="infotable">
+                                        <td><img src="img/366 TKM/EKO.png" width="50" height="50"></td>
+                                        <td>EKO</td>
+                                        <td>65</td>
+                                        <td>30%</td>
+                                        <td>38%</td>
+                                        <td>20%</td>
+                                        <td class="t_red">-10</td>
+                                        <td class="">-</td>
+                                        <td class="c6">6</td>
+                                        <td class="c6">6</td>
+                                        <td class="c5">5</td>
+                                        <td class="c2">2</td>
+                                        <td class="c0">0</td>
+                                        <td class="c0">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </details>
+                </p>
+            </details>
+        </p>
+    </details>
+</body>
+
+</html>
